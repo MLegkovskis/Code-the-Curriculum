@@ -1,0 +1,25 @@
+/* Basic styling for the dashboard */
+body {
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.lead {
+    background-color: #eef;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 5px solid #0d6efd;
+}
+
+.fraction-flip {
+    animation: flip-vertical 0.8s ease-in-out;
+}
+
+@keyframes flip-vertical {
+    from { transform: rotateX(0deg); }
+    to { transform: rotateX(360deg); }
+}
